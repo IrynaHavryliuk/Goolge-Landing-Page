@@ -26,12 +26,13 @@ a:hover {
 .icon {
   width: 30px;
   height: 30px;
-  stroke: #7c7979;
+  stroke: #5f6367;
   fill: white;
   background-color: white; /* Цвет фона иконки */
   padding: 0;
   margin: 0;
   border-radius: 50%;
+  border-style: none;
 }
 button .icon {
   background-color: #fff;
