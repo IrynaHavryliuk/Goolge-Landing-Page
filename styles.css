@@ -2,12 +2,12 @@
   box-sizing: border-box;
 }
 body {
+  height: 100%;
   margin: 0;
+  padding: 0;
 }
 header {
   margin: auto;
-  /* padding-top: 25px; */
-  padding-bottom: 25px;
   padding-left: 40px;
   padding-right: 40px;
 }
@@ -18,7 +18,7 @@ li {
 a {
   color: #202124;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 16px;
 }
 a:hover {
   text-decoration: underline;
@@ -40,18 +40,20 @@ button .icon {
   background-color: #7b1ea2;
   border-radius: 50%;
   color: #fff;
-  padding: 12px 24px;
-  margin: 2px;
+  padding: 12px 20px;
   border: none;
-  font-weight: 500;
-  font-size: 24px;
+  font-weight: 400;
+  font-size: 20px;
+}
+.violet:hover {
+  background-color: #450860;
 }
 h1 {
   text-align: center;
-  font-size: 112px;
+  font-size: 100px;
   letter-spacing: -16px;
   font-weight: lighter;
-  margin: 150px 0 0 0;
+  margin: 30px 0 0 0;
 }
 span {
   font-family: "Poppins", sans-serif;
@@ -59,7 +61,7 @@ span {
   font-style: normal;
 }
 .span-color1 {
-  font-size: 136px;
+  font-size: 112px;
 }
 .span-color1,
 .span-color4 {
@@ -115,7 +117,7 @@ input:hover {
   width: 24px;
   height: 24px;
   fill: #7c7979;
-  stroke: #7c7979;
+  /* stroke: #7c7979; */
 }
 .bt-search {
   display: flex;
@@ -173,13 +175,12 @@ p a {
   margin-right: 20px;
 }
 .bt-icon {
-  border: none;
-  margin: 0;
   padding: 0;
+  background-color: white;
+  border-color: white;
 }
 .bt-icon:hover {
-  border-radius: 50%;
-  border-color: #909093;
+  stroke: #7b1ea2;
 }
 footer {
   background-color: #f2f2f2;
